@@ -15,7 +15,7 @@
 						<div class="input-group">
 							<p class="lead"> {{id}}.  {{this.burger_name}} </p>
 							<span class="input-group-btn">
-								<form class="form-group">
+								<form>
                                     <button class="btn btn-danger btn-sm change-devoured" type="submit" data-newdevoured="true" data-id="{{id}}"> Devour It! </button>
 								</form>
 							</span>
@@ -23,12 +23,11 @@
 					</li>
 					{{/unless}}
 				{{/each}}
-			</ul>
+			    </ul>
+		    </div>
 		</div>
-	</div>
 
 		{{!-- burger list after being devoured --}}
-	<div class="row">
 		<div class="col-md-4 col-md-offset-2">
 			<div class="panel panel-default">
 				<ul class="list-group">
@@ -38,7 +37,7 @@
 						<div class="input-group">
 							<p class="lead"> {{id}}.  {{this.burger_name}} </p>
                             <span class="input-group-btn">
-								<form class="form-group">
+								<form>
                                     <button class="btn btn-danger btn-sm delete-burger" type="submit" data-id="{{id}}"> Clean the dishes </button>
 								</form>
 							</span>
@@ -49,19 +48,21 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-
-	<div class="col-md-10 col-md-offset-1">
-		<p class="lead"> Add a new burger to menu & click the submit button. </p>
+        </div>
+    </div>
+    <div class="row">
+	    <div class="col-md-4 col-md-offset-1 userInputDiv">
+		    <p class="lead"> Add a new burger to menu & click the submit button </p>
 
 		{{!-- section to add burgers using the post method in the html form--}}
-		<form class="create-update-form" action="/api/burgers/new" method="POST">
+		    <form class="create-update-form" action="/api/burgers/new" method="POST">
 
-			<div class="form-group">
-				<textarea class="form-control input-lg" type="text" name="name" rows="3"> </textarea>
-			</div>
+			    <div class="form-group">
+				    <textarea class="form-control input-lg" type="text" name="name" rows="3"> </textarea>
+			    </div>
 
-			<button class="btn btn-danger btn-md" type="submit">Submit!</button>
-		</form>
-	</div>
+			    <button class="btn btn-danger btn-md" type="submit">Submit!</button>
+		    </form>
+	    </div>
+    </div>
 </div>
