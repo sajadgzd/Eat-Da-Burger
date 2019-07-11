@@ -3,4 +3,4 @@ Node app with MySQL, Express, Handlebars and a homemade ORM, which follows the M
 
 
 
-- [Live Demo] (https://sheltered-dawn-17863.herokuapp.com/)
+- [Live Demo](https://sheltered-dawn-17863.herokuapp.com/)
