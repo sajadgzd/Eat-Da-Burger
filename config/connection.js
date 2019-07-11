@@ -3,8 +3,8 @@ var mysql = require("mysql");
 
 // to protect the key from github
 require("dotenv").config();
-if (process.env.CLEARDB_DATABASE_URL) {
-    var connection = mysql.createConnection('mysql://n0v6bw9xhkwkmte2:vrr7ojpncsvhk0a8@erxv1bzckceve5lh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/niec2upiqit5kymd');
+if (process.env.JAWSDB_URL) {
+    var connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
     // var connection = mysql.createConnection({
     //     host: "localhost",
