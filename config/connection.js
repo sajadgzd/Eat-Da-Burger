@@ -4,7 +4,7 @@ var mysql = require("mysql");
 // to protect the key from github
 require("dotenv").config();
 if (process.env.CLEARDB_DATABASE_URL) {
-    var connection = mysql.createConnection('mysql://b7ea03db4c31c9:44a7ecde@us-cdbr-iron-east-02.cleardb.net/heroku_d7538f3a08fe51e?reconnect=true');
+    var connection = mysql.createConnection('mysql://n0v6bw9xhkwkmte2:vrr7ojpncsvhk0a8@erxv1bzckceve5lh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/niec2upiqit5kymd');
 } else {
     // var connection = mysql.createConnection({
     //     host: "localhost",
