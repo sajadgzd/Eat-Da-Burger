@@ -12,5 +12,5 @@ Node app with MySQL, Express, Handlebars and a homemade ORM, which follows the M
 * The app will store every burger in a database, whether devoured or not.
 
 #### Demo
-- [Gif](./public/assets/images/burgersmall.gif)
+- ![Here is a gif demo](/public/assets/images/burgersmall.gif)
 - [Live Website](https://sheltered-dawn-17863.herokuapp.com/)
