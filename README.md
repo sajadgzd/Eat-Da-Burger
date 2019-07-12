@@ -14,4 +14,4 @@ Node app with MySQL, Express, Handlebars and a homemade ORM, which follows the M
 #### Demo
 - [Live Website](https://sheltered-dawn-17863.herokuapp.com/)
 
-![Here is a Gif demo](/public/assets/images/burgersmall.gif)
+![Here is a Gif demo](/public/assets/images/demo.gif)
