@@ -11,6 +11,8 @@ Node app with MySQL, Express, Handlebars and a homemade ORM, which follows the M
 
 * The app will store every burger in a database, whether devoured or not.
 
+* The user is able to delete the burger from the database by clicking on the `Clean the dishes` button.
+
 #### Demo
 - [Live Website](https://sheltered-dawn-17863.herokuapp.com/)
 
