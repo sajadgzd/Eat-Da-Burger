@@ -1,6 +1,6 @@
 # Eat-Da-Burger
 Node app with MySQL, Express, Handlebars and a homemade ORM, which follows the MVC design pattern and CRUD method.
- Node and MySQL to query and route data for the app, and Handlebars to generate the HTML.
+ Node and MySQL to query and route data for the app, and Handlebars to generate the HTML and jQuery for ajax calls.
 ### Overview
 
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
