@@ -1,5 +1,5 @@
 # Eat-Da-Burger
-Node app with MySQL, Express, Handlebars and a homemade ORM, which follows the MVC design pattern
+Node app with MySQL, Express, Handlebars and a homemade ORM, which follows the MVC design pattern and CRUD method.
  Node and MySQL to query and route data for the app, and Handlebars to generate the HTML.
 ### Overview
 
@@ -11,5 +11,6 @@ Node app with MySQL, Express, Handlebars and a homemade ORM, which follows the M
 
 * The app will store every burger in a database, whether devoured or not.
 
-#### Deployed app on heroku
-- [Live Demo](https://sheltered-dawn-17863.herokuapp.com/)
+#### Demo
+- [Gif](./public/assets/images/burgersmall.gif)
+- [Live Website](https://sheltered-dawn-17863.herokuapp.com/)
